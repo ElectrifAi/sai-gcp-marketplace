@@ -230,7 +230,7 @@ To view your app, open the URL in your browser.
 
 # Using the app
 
-You can get the IP addresses for your ProcuremNGINX solution either from the command
+You can get the IP addresses for your SpendAi solution either from the command
 line, or from the Google Cloud Platform Console.
 
 In the GCP Console, do the following:
