@@ -4,7 +4,7 @@ metadata:
   name: "{{ .Release.Name }}"
   annotations:
     kubernetes-engine.cloud.google.com/icon: >-
-      data:image/png;base64,{{ .Files.Get "ElectrifAi_Logo_200px.png" | b64enc }}
+      data:image/png;base64,{{ .Files.Get "SAi_Logo.png" | b64enc }}
     marketplace.cloud.google.com/deploy-info: '{"partner_id": "electrifai-public", "product_id": "spendai", "partner_name": "ElectrifAi"}'
   labels:
     app.kubernetes.io/name: "{{ .Release.Name }}"
@@ -43,8 +43,8 @@ spec:
     links:
     - description: 'Electrifai website'
       url: https://electrifai.net/
-    - description: 'Procurement Ai website'
-      url: https://electrifai.net/products/procurement-ai
+    - description: 'Spend Ai website'
+      url: https://electrifai.net/products/spend-ai
     notes: |-
       # Aditional marketing notes
 
